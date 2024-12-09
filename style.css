@@ -151,14 +151,6 @@ a:hover {
 
 /* SECTIONS */
 
-section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-}
-
 .section-container {
   display: flex;
 }
@@ -169,7 +161,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 83vh;
 }
 
 .section__pic-container {
@@ -271,8 +263,7 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
+  gap: 0rem;
   margin-top: 2rem;
   
 }
@@ -306,11 +297,17 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
 }
 
 .section-container {
-  gap: 4rem;
+  gap: 1rem;
   height: 80%;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 85px;
 }
 
 .section__pic-container {
@@ -379,12 +376,19 @@ article .icon {
   article {
     width: auto; /* Adjust as needed */
   }
+
+
+
+  
 }
 
 /* Add a media query for smaller screens */
 @media (max-width: 767px) {
   .article-container {
     padding-left: 1px; /* Adjust as needed */
+  }
+  p{
+    display: none;
   }
 }
 
@@ -396,7 +400,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 50vh;
 }
 
 .contact-info-upper-container {
